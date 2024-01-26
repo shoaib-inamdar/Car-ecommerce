@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+</head>
+<body>
+    <div class="cursor">
+        <!-- <div class="cursorsmall"></div> -->
+    </div>
+    <div class="main">
+        <!-- <div class="overlay"></div> -->
+        <div class="page1">
+            <nav>
+                <div class="left">
+                    <h1>logo</h1>
+                </div>
+                <div class="right">
+                    <h1>home</h1>
+                    <h1>contact us</h1>
+                    <h1>about us</h1>
+                    <h1>blank</h1>
+                </div>
+            </nav>
+            <div class="backimg">
+                <img src="car1.jpg" alt="">
+                <img src="car2.jpg" alt="">
+                <img src="car3.jpg" alt="">
+                <img src="car4.jpg" alt="">
+            </div>
+            <h4>scroll down</h4>
+        </div>
+        <div class="page2">
+            <div class="cards">
+                <img src="Lamborghini.jpg" alt="">
+                <video autoplay loop muted src="lambovid.mp4"></video>
+                
+                <div class="info">
+                    <h2>lamborghini</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, commodi optio! Voluptates officia sint porro quaerat vitae. Dicta, doloremque laudantium illo quasi nihil sit ad corrupti, nobis vitae impedit natus?</p>
+                    <button>buy now</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="Audi.jpg" alt="">
+                <video autoplay loop muted src="audivid.webm"></video>
+                
+                <div class="info">
+                    <h2>audi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, commodi optio! Voluptates officia sint porro quaerat vitae. Dicta, doloremque laudantium illo quasi nihil sit ad corrupti, nobis vitae impedit natus?</p>
+                    <button>buy now</button>
+                </div>
+                
+            </div>
+            <div class="cards">
+                <img src="Mustang.jpg" alt="">
+                <video autoplay loop muted src="mustangvid.webm"></video>
+                
+                <div class="info">
+                    <h2>mustang</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, commodi optio! Voluptates officia sint porro quaerat vitae. Dicta, doloremque laudantium illo quasi nihil sit ad corrupti, nobis vitae impedit natus?</p>
+                    <button>buy now</button>
+                </div>
+                
+            </div>
+            <div class="cards">
+                <img src="mercedes.jpg" alt="">
+                <video autoplay loop muted src="mervid.mp4"></video>
+                <div class="info">
+                    <h2>mercedes</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, commodi optio! Voluptates officia sint porro quaerat vitae. Dicta, doloremque laudantium illo quasi nihil sit ad corrupti, nobis vitae impedit natus?</p>
+                    <button>buy now</button>
+                </div>
+            </div>
+        </div>
+        <div class="page3">
+            <video autoplay loop muted src=""></video>
+            <div class="videotext">
+                <h1 onmouseover="audi()">audi</h1>
+                <h1 onmouseover="lambo()">lamborghini</h1>
+                <h1 onmouseover="merce()">mustang</h1>
+                <h1 onmouseover="must()">mercedes</h1>
+            </div>
+        </div>
+        <div class="page4">
+            <div class="boximg">
+                <img src="img1.jpg" alt="">
+                <img src="img2.jpg" alt="">
+                <img src="img3.jpg" alt="">
+            </div>
+            <div class="boxtext">
+                <h1 id="carname"> Lamborghini</h1>
+                <br> <br>
+                <p id="carinfo">DISPLACEMENT
+                    6,498 cm³ (396.5 cu in) <br>
+                    MAX. POWER:
+                    740 CV (544 kW) @ 8.400 rpm <br>
+                    TOP SPEED :
+                    350 km/h (217 mph) <br>
+                    ACCELERATION :0-100 KM/H (MPH 0-62)
+                    2.9 s</p>
+            </div>
+        </div>
+        <div class="page5">
+            <h1>about us</h1>
+            <div class="about">
+                <!-- <div class="line"></div> -->
+                <hr>
+                <div class="div">
+
+                    <h2>PH:983998232</h2>
+                    <h2>Email:abc@gmail.com</h2>
+                    <h2>Location: Lorem ipsum dolor sit amet.</h2>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script> 
+    <!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+    <script src="script.js"></script>
+</body>
+</html>
